@@ -1,0 +1,83 @@
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Bold;
+	src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-SemiBold;
+	src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-Black;
+	src: url(../fonts/Montserrat-Black.ttf);
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+*, *::before, *::after {
+	font-weight: normal;
+	line-height: 1;
+	outline: none;	
+	box-sizing: border-box;	
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+html.-noscroll, 
+body.-noscroll {
+	overflow: hidden;
+}
+
+.gradient-button {
+	cursor: pointer;
+	border: none;
+	background-image: linear-gradient(to right, #03b8f6, #09a1e3, #30dd8a, #2bb673);
+	background-size: 300% 100%;
+	transition: all .4s ease-in-out;
+}
+
+.gradient-button:hover {
+	background-position: 100% 0;
+	box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+	transition: all .4s ease-in-out;
+}
+
+.h2-title {
+	font-family: Montserrat-SemiBold;
+	font-size: 36px;
+	margin: 0;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1600px;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.container {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.h2-title {
+		font-size: 28px;
+	}
+}

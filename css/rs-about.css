@@ -1,0 +1,162 @@
+.rs-17 .about {
+	padding-top: 80px;
+}
+
+.rs-17 .about .about__container {
+	display: flex;
+}
+
+.rs-17 .about .about__column {
+	width: calc((100% - 90px) / 2);
+}
+
+.rs-17 .about .about__column:nth-child(2) {
+	margin-left: auto;
+}
+
+.rs-17 .about .about-company__subtitle {
+	font-family: Montserrat-SemiBold;
+	font-size: 14px;
+	line-height: 21px;
+	color: #29c1f8;
+	margin: 0 0 5px;
+}
+
+.rs-17 .about .about-company__title {
+	color: #15222b;
+	margin-bottom: 33px;
+}
+
+.rs-17 .about .about-company__text {
+	font-family: Montserrat-Regular;
+	font-size: 16px;
+	color: #424242;
+	margin-bottom: 40px;
+}
+
+.rs-17 .about .about-company__text p {
+	line-height: 24px;
+	margin: 0;
+}
+
+.rs-17 .about .about-company__text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.rs-17 .about .about-company__hint {
+	position: relative;
+	background-color: #f4f4f4;
+	padding: 40px 50px 35px;
+	border-radius: 5px;
+	font-family: Montserrat-Regular;
+	font-size: 16px;
+	line-height: 24px;
+	color: #424242;
+	overflow: hidden;
+}
+
+.rs-17 .about .about-company__hint::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 9px;
+	height: 100%;
+	background-color: #2ac1f8;
+}
+
+.rs-17 .about .about-why {
+	margin-bottom: 45px;
+}
+
+.rs-17 .about .about-why__title {
+	margin-top: 25.8px;
+	color: #15222b;
+	margin-bottom: 30px;
+}
+
+.rs-17 .about .about-why__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.rs-17 .about .about-why__item {
+	width: calc((100% - 40px) / 2);
+}
+
+.rs-17 .about .about-why__item:nth-child(1),
+.rs-17 .about .about-why__item:nth-child(2) {
+	margin-bottom: 45px;
+}
+
+.rs-17 .about .about-why__number {
+	font-family: Montserrat-ExtraBold;
+	font-size: 40px;
+	background: linear-gradient(135deg, #5a4bc5, #a351a5);
+	-webkit-background-clip: text;
+	color: transparent;
+	margin-bottom: 12px;
+}
+
+.rs-17 .about .about-why__name {
+	font-family: Montserrat-SemiBold;
+	font-size: 18px;
+	color: #424242;
+	margin: 0 0 9px;
+}
+
+.rs-17 .about .about-why__desc {
+	font-family: Montserrat-Regular;
+	font-size: 14px;
+	line-height: 21px;
+	color: #616161;
+	margin: 0;
+}
+
+.rs-17 .about .about-documents__title {
+	color: #15222b;
+	margin-bottom: 23px;
+}
+
+.rs-17 .about .about-documents__item img {
+	width: 100%;
+}
+
+.rs-17 .about .about-documents__slider .owl-dots {
+	display: flex;
+	align-items: center;
+	height: 1px;
+	background-color: #d6d6d6;
+	margin-top: 15px;
+}
+
+.rs-17 .about .about-documents__slider.owl-carousel .owl-dot {
+	flex-grow: 1;
+	height: 3px;
+	margin-top: -2px;
+	transition: 0.3s background;	
+}
+
+.rs-17 .about .about-documents__slider.owl-carousel .owl-dot.active {
+	background-color: #03b9f7;
+}
+
+@media screen and (max-width: 1100px) {
+	.rs-17 .about .about__container {
+		flex-direction: column;
+	}
+	.rs-17 .about .about__column {
+		width: 100%;
+	}
+	.rs-17 .about .about__column:nth-child(1) {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.rs-17 .about .about-why__item {
+		width: 100%;
+	}
+}
