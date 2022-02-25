@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Иннопром</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/rs-header.css">
+	<link rel="stylesheet" href="css/rs-slider.css">
+	<link rel="stylesheet" href="css/rs-catalog.css">
+	<link rel="stylesheet" href="css/rs-hits.css">
+	<link rel="stylesheet" href="css/rs-services.css">
+	<link rel="stylesheet" href="css/rs-about.css">
+	<link rel="stylesheet" href="css/rs-news.css">
+	<!-- Добавлено 05.12.2021 -->
+	<link rel="stylesheet" href="css/rs-delivery.css">
+	<link rel="stylesheet" href="css/rs-contacts.css">
+	<link rel="stylesheet" href="css/rs-category.css">
+	<link rel="stylesheet" href="css/rs-product.css">
+	<!-- END Добавлено 05.12.2021 -->
+	<link rel="stylesheet" href="css/rs-footer.css">
+</head>
+<body>
+	<header>
+		<div class="rs-17">
+			<div class="header">
+				<div class="header__top header-top">
+					<div class="header-top__container container">
+						<div class="header-top__address"><img src="img/home-solid.svg" alt=""> Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+						<div class="header-top__time"><img src="img/clock-solid.svg" alt=""> Режим работы: Пн-Пт с 10:00 до 18:00</div>
+						<div class="header-top__protection"><img src="img/star-solid.svg" alt=""> Обеспечим надежную защиту объекта любого масштаба</div>
+					</div>
+				</div>
+				<div class="header__middle header-middle">
+					<div class="header-middle__container container">
+						<a href="" class="header-middle__logo"><img src="img/logo.png" alt=""></a>
+						<form class="header-middle__form">
+							<input type="text" placeholder="Поиск товаров по наименованию..." required>
+							<button type="submit" class="gradient-button">Найти</button>
+						</form>
+						<div class="header-middle__contacts contacts">
+							<a href="tel:+7(495)374-90-93" class="contacts__item">
+								<img src="img/phone_icon.svg" alt="" class="contacts__img">
+								<span class="contacts__info">
+									<span class="contacts__name">Телефон:</span>
+									<span class="contacts__value">+7 (495) 374-90-93</span>
+								</span>
+							</a>
+							<a href="mailto:info@inoprom.ru" class="contacts__item">
+								<img src="img/email_icon.svg" alt="" class="contacts__img">
+								<span class="contacts__info">
+									<span class="contacts__name">E-mail:</span>
+									<span class="contacts__value">info@inoprom.ru</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom header-bottom">
+					<div class="header-bottom__container container">
+						<div class="header-bottom__catalog catalog">
+							<span class="gradient-button"><img src="img/list-solid.svg" alt="">Каталог оборудования</span>
+							<ul class="catalog__menu">
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+							</ul>
+						</div>
+						<ul class="header-bottom__menu menu">
+							<li class="menu__item -active"><a href="">Главная</a></li>
+							<li class="menu__item"><a href="">Услуги</a></li>
+							<li class="menu__item"><a href="">О компании</a></li>
+							<li class="menu__item"><a href="">Новости</a></li>
+							<li class="menu__item"><a href="">Доставка / Оплата</a></li>
+							<li class="menu__item"><a href="">Контакты</a></li>
+						</ul>
+						<a href="" class="header-bottom__account -active"><span></span>Личный кабинет</a>
+						<a href="" class="header-bottom__basket"><span></span>Корзина (15 000 руб)</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-mobile">
+				<div class="header-mobile__container container">
+					<div class="header-mobile__burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="" class="header-mobile__logo"><img src="img/logo.png" alt=""></a>
+					<div class="header-mobile__lk">
+						<a href="" class="header-mobile__account"><span></span></a>
+						<a href="" class="header-mobile__basket"><span></span></a>
+					</div>
+					<div class="header-mobile__menu menu-mobile">
+						<div class="menu-mobile__tabs tabs">
+							<div class="tabs__item -active" data-tab="address"></div>
+							<div class="tabs__item" data-tab="phone"></div>
+							<div class="tabs__item" data-tab="mail"></div>
+						</div>
+						<div class="menu-mobile__tabs-info tabs-info">							
+							<div class="tabs-info__item -active" data-tab="address">71214 Conn Gateway New Amanda, MT 49015-8873</div>
+							<a href="tel:+1-925-918-7833" class="tabs-info__item" data-tab="phone">+1-925-918-7833</a>
+							<a href="mailto:hammes.gust@lesch.com" class="tabs-info__item" data-tab="mail">hammes.gust@lesch.com</a>
+						</div>
+						<form class="menu-mobile__search">
+							<input type="text" placeholder="Поиск товаров по наименованию..." required>
+							<button type="submit" class="gradient-button">Найти</button>
+						</form>
+						<ul class="menu-mobile__list list">
+							<li class="list__item -catalog">
+								<span class="gradient-button"><a href="">Каталог оборудования</a><span class="arrow-down"></span></span>
+								<ul class="menu-mobile__sublist sublist">
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+								</ul>
+							</li>
+							<li class="list__item"><span><a href="">Главная</a></span></li>
+							<li class="list__item"><span><a href="">Услуги</a></span></li>
+							<li class="list__item"><span><a href="">О компании</a></span></li>
+							<li class="list__item"><span><a href="">Новости</a></span></li>
+							<li class="list__item"><span><a href="">Доставка / Оплата</a></span></li>
+							<li class="list__item"><span><a href="">Контакты</a></span></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="rs-17">
+			<div class="category">
+				<div class="category__container container">
+					<div class="breadcrumbs">
+						<a href="" class="breadcrumbs__item -prev">Главная</a>
+						<a href="" class="breadcrumbs__item -prev">Каталог</a>
+						<a href="" class="breadcrumbs__item -curr">Оборудование для видеонаблюдения</a>
+					</div>
+					<h1 class="category__title">Оборудование для видеонаблюдения</h1>
+					<div class="category__sections category-sections">
+						<div class="category-sections__list -sections">
+							<a href="" class="category-sections__item">IP камеры</a>
+							<a href="" class="category-sections__item">Камеры видеонаблюдения</a>
+							<a href="" class="category-sections__item">Видеорегистраторы</a>
+							<a href="" class="category-sections__item">IP камеры</a>
+							<a href="" class="category-sections__item">Камеры видеонаблюдения</a>
+							<a href="" class="category-sections__item">Видеорегистраторы</a>
+							<a href="" class="category-sections__item -more">Показать ещё</a>
+						</div>
+						<div class="category-sections__list -manufacturer">
+							<a href="" class="category-sections__item">Hikvision</a>
+							<a href="" class="category-sections__item">HiWatch</a>
+							<a href="" class="category-sections__item">IDIS</a>
+							<a href="" class="category-sections__item">Panasonic</a>
+							<a href="" class="category-sections__item">Hikvision</a>
+							<a href="" class="category-sections__item">HiWatch</a>
+							<a href="" class="category-sections__item">IDIS</a>
+							<a href="" class="category-sections__item">Panasonic</a>
+							<a href="" class="category-sections__item -more">Показать ещё</a>
+						</div>
+					</div>
+					<div class="category__table category-table -list">
+						<div class="category-table__settings category-settings">
+							<div class="category-settings__view">
+								<a href="" class="card"></a>
+								<a href="" class="list -active"></a>
+							</div>
+							<div class="category-settings__show">Показано товаров:<span>12</span></div>
+							<div class="category-settings__filters category-filters">
+								<span class="category-filters__title">Сортировать по:</span>
+								<span class="category-filters__current">увеличению цены</span>
+								<div class="category-filters__list">
+									<a href="" class="category-filters__item -active">увеличению цены</a>
+									<a href="" class="category-filters__item">уменьшению цены</a>
+									<a href="" class="category-filters__item">новизне</a>
+									<a href="" class="category-filters__item">популярности</a>
+								</div>
+							</div>
+						</div>
+						<div class="categoty-table__head">
+							<div class="categoty-table__item-head table-item__head">
+								<div class="table-item__column -photo"><span>Фото</span></div>
+								<div class="table-item__column -name"><span>Наименование товара</span></div>
+								<div class="table-item__column -article"><span>Артикул</span></div>
+								<div class="table-item__column -manufacturer"><span>Производитель</span></div>
+								<div class="table-item__column -whosale"><span>Оптовая цена</span></div>
+								<div class="table-item__column -retail"><span>Розничная цена</span></div>
+								<div class="table-item__column -availability"><span>Наличие</span></div>
+								<div class="table-item__column -action"><span>Корзина</span></div>
+							</div>
+						</div>
+						<div class="categoty-table__body">
+							<div class="list">
+								<div class="categoty-table__item-body table-item__body -list">
+									<div class="table-item__column -photo"><img src="img/product1.jpg" alt=""></div>
+									<div class="table-item__column -name"><span>Arecont Vision AV3455DN-F IP видеокамера</span></div>
+									<div class="table-item__column -article"><span>AV3455DN-F</span></div>
+									<div class="table-item__column -manufacturer"><span>Arecont Vision</span></div>
+									<div class="table-item__column -whosale"><span>43 867₽</span></div>
+									<div class="table-item__column -retail"><span>50 000₽</span></div>
+									<div class="table-item__column -availability"><span class="yes">В наличии</span></div>
+									<div class="table-item__column -action"><a href="" class="table-item__link gradient-button">В корзину</a></div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -list">
+									<div class="table-item__column -photo"><img src="img/product2.jpg" alt=""></div>
+									<div class="table-item__column -name"><span>Arecont Vision AV3455DN-F IP видеокамера</span></div>
+									<div class="table-item__column -article"><span>AV3455DN-F</span></div>
+									<div class="table-item__column -manufacturer"><span>Arecont Vision</span></div>
+									<div class="table-item__column -whosale"><span>43 867₽</span></div>
+									<div class="table-item__column -retail"><span>50 000₽</span></div>
+									<div class="table-item__column -availability"><span class="no">Нет в наличии</span></div>
+									<div class="table-item__column -action"><a href="" class="table-item__link gradient-button">В корзину</a></div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -list">
+									<div class="table-item__column -photo"><img src="img/product3.jpg" alt=""></div>
+									<div class="table-item__column -name"><span>Arecont Vision AV3455DN-F IP видеокамера</span></div>
+									<div class="table-item__column -article"><span>AV3455DN-F</span></div>
+									<div class="table-item__column -manufacturer"><span>Arecont Vision</span></div>
+									<div class="table-item__column -whosale"><span>43 867₽</span></div>
+									<div class="table-item__column -retail"><span>50 000₽</span></div>
+									<div class="table-item__column -availability"><span class="no">Нет в наличии</span></div>
+									<div class="table-item__column -action"><a href="" class="table-item__link gradient-button">В корзину</a></div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -list">
+									<div class="table-item__column -photo"><img src="img/product4.jpg" alt=""></div>
+									<div class="table-item__column -name"><span>Arecont Vision AV3455DN-F IP видеокамера</span></div>
+									<div class="table-item__column -article"><span>AV3455DN-F</span></div>
+									<div class="table-item__column -manufacturer"><span>Arecont Vision</span></div>
+									<div class="table-item__column -whosale"><span>43 867₽</span></div>
+									<div class="table-item__column -retail"><span>50 000₽</span></div>
+									<div class="table-item__column -availability"><span class="yes">В наличии</span></div>
+									<div class="table-item__column -action"><a href="" class="table-item__link gradient-button">В корзину</a></div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -list">
+									<div class="table-item__column -photo"><img src="img/product1.jpg" alt=""></div>
+									<div class="table-item__column -name"><span>Arecont Vision AV3455DN-F IP видеокамера</span></div>
+									<div class="table-item__column -article"><span>AV3455DN-F</span></div>
+									<div class="table-item__column -manufacturer"><span>Arecont Vision</span></div>
+									<div class="table-item__column -whosale"><span>43 867₽</span></div>
+									<div class="table-item__column -retail"><span>50 000₽</span></div>
+									<div class="table-item__column -availability"><span class="yes">В наличии</span></div>
+									<div class="table-item__column -action"><a href="" class="table-item__link gradient-button">В корзину</a></div>
+								</div>
+							</div>
+							<div class="card">						
+								<div class="categoty-table__item-body table-item__body -card">
+									<img src="img/product1.jpg" alt="" class="table-item__img">
+									<p class="table-item__availability">В наличии</p>
+									<h3 class="table-item__name">Arecont Vision AV3455DN-F IP видеокамера</h3>
+									<div class="table-item__desc">
+										<p>В корзину</p>
+										<p>Производитель: Arecont Vision</p>
+										<p>Оптовая цена: <span class="black">43 867₽</span></p>
+									</div>
+									<div class="table-item__bottom">
+										<div class="table-item__cost">
+											Розничная цена
+											<div class="table-item__value">50 000₽</div>
+										</div>
+										<a href="" class="table-item__basket gradient-button">
+											<span class="img"></span>
+											<span class="text">В корзину</span>
+										</a>
+									</div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -card">
+									<img src="img/product2.jpg" alt="" class="table-item__img">
+									<p class="table-item__availability">В наличии</p>
+									<h3 class="table-item__name">Arecont Vision AV3455DN-F IP видеокамера</h3>
+									<div class="table-item__desc">
+										<p>В корзину</p>
+										<p>Производитель: Arecont Vision</p>
+										<p>Оптовая цена: <span class="black">43 867₽</span></p>
+									</div>
+									<div class="table-item__bottom">
+										<div class="table-item__cost">
+											Розничная цена
+											<div class="table-item__value">50 000₽</div>
+										</div>
+										<a href="" class="table-item__basket gradient-button">
+											<span class="img"></span>
+											<span class="text">В корзину</span>
+										</a>
+									</div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -card">
+									<img src="img/product3.jpg" alt="" class="table-item__img">
+									<p class="table-item__availability">В наличии</p>
+									<h3 class="table-item__name">Arecont Vision AV3455DN-F IP видеокамера</h3>
+									<div class="table-item__desc">
+										<p>В корзину</p>
+										<p>Производитель: Arecont Vision</p>
+										<p>Оптовая цена: <span class="black">43 867₽</span></p>
+									</div>
+									<div class="table-item__bottom">
+										<div class="table-item__cost">
+											Розничная цена
+											<div class="table-item__value">50 000₽</div>
+										</div>
+										<a href="" class="table-item__basket gradient-button">
+											<span class="img"></span>
+											<span class="text">В корзину</span>
+										</a>
+									</div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -card">
+									<img src="img/product4.jpg" alt="" class="table-item__img">
+									<p class="table-item__availability">В наличии</p>
+									<h3 class="table-item__name">Arecont Vision AV3455DN-F IP видеокамера</h3>
+									<div class="table-item__desc">
+										<p>В корзину</p>
+										<p>Производитель: Arecont Vision</p>
+										<p>Оптовая цена: <span class="black">43 867₽</span></p>
+									</div>
+									<div class="table-item__bottom">
+										<div class="table-item__cost">
+											Розничная цена
+											<div class="table-item__value">50 000₽</div>
+										</div>
+										<a href="" class="table-item__basket gradient-button">
+											<span class="img"></span>
+											<span class="text">В корзину</span>
+										</a>
+									</div>
+								</div>
+								<div class="categoty-table__item-body table-item__body -card">
+									<img src="img/product1.jpg" alt="" class="table-item__img">
+									<p class="table-item__availability">В наличии</p>
+									<h3 class="table-item__name">Arecont Vision AV3455DN-F IP видеокамера</h3>
+									<div class="table-item__desc">
+										<p>В корзину</p>
+										<p>Производитель: Arecont Vision</p>
+										<p>Оптовая цена: <span class="black">43 867₽</span></p>
+									</div>
+									<div class="table-item__bottom">
+										<div class="table-item__cost">
+											Розничная цена
+											<div class="table-item__value">50 000₽</div>
+										</div>
+										<a href="" class="table-item__basket gradient-button">
+											<span class="img"></span>
+											<span class="text">В корзину</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="categoty-table__pagination table-pagination">
+							<a href="" class="table-pagination__item -active">1</a>
+							<a href="" class="table-pagination__item">2</a>
+							<a href="" class="table-pagination__item">3</a>
+							<a href="" class="table-pagination__item -next" style="-webkit-mask-image: url(img/pagination-next.png)"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="rs-17">
+			<div class="footer">
+				<div class="footer__top">
+					<div class="footer__container container">
+						<div class="footer__left">
+							<div class="footer__section section">
+								<h2 class="section__title">Контакты</h2>
+								<div class="section__list">
+									<div class="section__item">
+										<img src="img/phone_icon.svg" alt="" class="section__img -phone">
+										<div class="section__info">
+											<div class="section__name">Телефон:</div>
+											<a href="tel:+7(495)374-90-93" class="section__value">+7 (495) 374-90-93</a>
+										</div>
+									</div>
+									<div class="section__item">
+										<img src="img/email_icon.svg" alt="" class="section__img -mail">
+										<div class="section__info">
+											<div class="section__name">E-mail:</div>
+											<a href="mailto:info@inoprom.ru" class="section__value">info@inoprom.ru</a>
+										</div>
+									</div>
+									<div class="section__item">
+										<img src="img/clock_icon.svg" alt="" class="section__img -clock">
+										<div class="section__info">
+											<div class="section__name">Режим работы:</div>
+											<div class="section__value">Пн-Пт: с 09:00 до 18:00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__section section">
+								<h2 class="section__title">Адреса</h2>
+								<div class="section__list">
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Основной адрес:</div>
+											<div class="section__value">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+										</div>
+									</div>
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Производство:</div>
+											<div class="section__value">140155, Московская обл., Раменский р-н, с. Новохаритоново, д. 232.</div>
+										</div>
+									</div>
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Дополнительный офис:</div>
+											<div class="section__value">127521, г. Москва, проезд Марьиной рощи 17-й, д. 4, корп. 1.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__section section">
+								<h2 class="section__title">Мы в социальных сетях</h2>
+								<div class="section__social social">
+									<a href="" class="social__item -whatsapp"></a>
+									<a href="" class="social__item -vk"></a>
+									<a href="" class="social__item -instagram"></a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__right">
+							<form class="footer__feedback feedback">
+								<h2 class="feedback__title">Нужна консультация специалиста?</h2>
+								<div class="feedback__inputs">
+									<input type="text" placeholder="Ваше имя" required>
+									<input type="tel" placeholder="Телефон" required>
+									<input type="email" placeholder="E-mail" required>
+								</div>
+								<button type="submit" class="gradient-button">Оставить заявку</button>
+							</form>
+							<div class="footer__info info">
+								<h3 class="info__title">О компании</h3>
+								<p class="info__desc">Современная компания Innoprom предлагает новейшие системы безопасности, способные обеспечить надежную защиту объекта любого масштаба даже в самых непростых условиях. Мы устанавливаем оборудование для видеонаблюдения, пожарные системы, системы контроля и управления доступом, а также другие охранные устройства. Вы можете сделать заказ любого объема: от оптовых поставок до единичного товара в розницу.</p>
+							</div>
+							<div class="footer__links links">
+								<div class="links__column">
+									<h3 class="links__title">Каталог</h3>
+									<div class="links__list">
+										<a href="" class="links__item">Оборудование для видеонаблюдения</a>
+										<a href="" class="links__item">Металлические конструкции</a>
+										<a href="" class="links__item">Системы контроля и управления доступом</a>
+										<a href="" class="links__item">Шкафы, щиты и боксы</a>
+										<a href="" class="links__item">Системы охранно-пожарной сигнализации</a>
+										<a href="" class="links__item">Кабельная продукция</a>
+										<a href="" class="links__item">Домофоны и переговорные устройства</a>
+										<a href="" class="links__item">Системы монтажа кабельных трасс</a>
+										<a href="" class="links__item">Компьютерное оборудование</a>
+										<a href="" class="links__item">Профили монтажные</a>
+									</div>
+								</div>
+								<div class="links__column">
+									<h3 class="links__title">Информация</h3>
+									<div class="links__list">
+										<a href="" class="links__item">Главная</a>
+										<a href="" class="links__item">Новости</a>
+										<a href="" class="links__item">Услуги</a>
+										<a href="" class="links__item">Доставка / Оплата</a>
+										<a href="" class="links__item">О компании</a>
+										<a href="" class="links__item">Контакты</a>
+										<a href="" class="links__item">Документы</a>
+										<a href="" class="links__item"></a>
+										<a href="" class="links__item">Соискателям</a>																					
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__container container">
+						<div class="footer__company">©  Innoprom 2021. Все права защищены.</div>
+						<a href="" class="footer__develop">Разработано в <img src="img/rossait.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-mobile">
+				<div class="footer-mobile__top">
+					<div class="footer-mobile__container container">
+						<form class="footer-mobile__form">
+							<h3 class="footer-mobile__title">Нужна консультация специалиста?</h3>
+							<input type="text" placeholder="Ваше имя" required>
+							<input type="tel" placeholder="Телефон" required>
+							<input type="email" placeholder="E-mail" required>
+							<button type="submit" class="gradient-button">Оставить заявку</button>
+						</form>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Контакты</h3>
+							<div class="footer-mobile__desc">
+								<a href="tel:+7(495)374-90-93" class="footer-mobile__contact -phone">+7 (495) 374-90-93</a>
+								<a href="mailto:info@inoprom.ru" class="footer-mobile__contact -mail">info@inoprom.ru</a>
+								<div class="footer-mobile__contact -time">Пн-Пт: с 09:00 до 18:00</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">О компании</h3>
+							<div class="footer-mobile__desc">
+								<p class="footer-mobile__text">Современная компания Innoprom предлагает новейшие системы безопасности, способные обеспечить надежную защиту объекта любого масштаба даже в самых непростых условиях. Мы устанавливаем оборудование для видеонаблюдения, пожарные системы, системы контроля и управления доступом, а также другие охранные устройства. Вы можете сделать заказ любого объема: от оптовых поставок до единичного товара в розницу.</p>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Каталог</h3>
+							<div class="footer-mobile__desc">
+								<a href="" class="footer-mobile__link">Оборудование для видеонаблюдения</a>
+								<a href="" class="footer-mobile__link">Системы контроля и управления доступом</a>
+								<a href="" class="footer-mobile__link">Системы охранно-пожарной сигнализации</a>
+								<a href="" class="footer-mobile__link">Домофоны и переговорные устройства</a>
+								<a href="" class="footer-mobile__link">Компьютерное оборудование</a>
+								<a href="" class="footer-mobile__link">Металлические конструкции</a>
+								<a href="" class="footer-mobile__link">Шкафы, щиты и боксы</a>
+								<a href="" class="footer-mobile__link">Кабельная продукция</a>
+								<a href="" class="footer-mobile__link">Системы монтажа кабельных трасс</a>
+								<a href="" class="footer-mobile__link">Профили монтажные</a>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Информация</h3>
+							<div class="footer-mobile__desc">
+								<a href="" class="footer-mobile__link">Главная</a>
+								<a href="" class="footer-mobile__link">Новости</a>
+								<a href="" class="footer-mobile__link">Контакты</a>
+								<a href="" class="footer-mobile__link">Соискателям</a>
+								<a href="" class="footer-mobile__link">О компании</a>
+								<a href="" class="footer-mobile__link">Контакты</a>
+								<a href="" class="footer-mobile__link">Документы</a>
+								<a href="" class="footer-mobile__link">Доставка / Оплата</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-mobile__bottom">
+					<div class="footer-mobile__container container">
+						<div class="footer-mobile__company">©  Innoprom 2021. Все права защищены.</div>
+						<a href="" class="footer-mobile__develop">Разработано в <img src="img/rossait.svg" alt=""></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</footer>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<script defer src="js/owl.carousel.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script defer src="js/script.js"></script>
+</body>
+</html>

@@ -1,11 +1,19 @@
 $(document).ready(function() {
+	$('.slider__list').on("changed.owl.carousel", function() {
+		$(".slider").removeClass("-on").addClass("-off");
+		setTimeout(function() {
+			$(".slider").removeClass("-off").addClass("-on");
+		}, 50);
+	});
 	$('.slider__list').owlCarousel({
 		loop: true,
 		nav: false,
 		items: 1,
 		dots: false,
 		animateOut: 'fadeOut',
-		animateIn: 'fadeIn'
+		animateIn: 'fadeIn',
+		// autoplay: true,
+  		// autoplayTimeout: 5000
 	});
 	$('.slider .arrows__item.-prev').click(function(event) {
 		event.preventDefault();
@@ -139,5 +147,55 @@ $(document).ready(function() {
     	$(this).toggleClass("-active");
     	console.log("click");
     	$(this).parent().find(".footer-mobile__desc").slideToggle("fast");
+    });
+    // Добавлено 05.12.2021
+    $(".delivery-faq__item").on("click", function() {
+    	let item = $(this);
+    	item.find(".delivery-faq__header").toggleClass("-active");
+    	item.find(".delivery-faq__body").slideToggle();
+    });
+    $(".category-settings__view").on("click", ".card", function(event) {
+    	event.preventDefault();
+    	$(this).siblings().removeClass("-active");
+    	$(this).addClass("-active");
+    	$(".category-table").removeClass("-list").addClass("-card");
+    });
+    $(".category-settings__view").on("click", ".list", function(event) {
+    	event.preventDefault();
+    	$(this).siblings().removeClass("-active");
+    	$(this).addClass("-active");
+    	$(".category-table").removeClass("-card").addClass("-list");
+    });
+    $(".category-sections__item.-more").on("click", function(event) {
+    	event.preventDefault();
+    	$(this).siblings().fadeIn(300);
+    	$(this).fadeOut(0);
+    });
+    $(".category-filters__current").on("click", function() {
+    	$(".category-filters__list").toggleClass("-active");
+    });
+    $(".category-filters__item").on("click", function(event) {
+    	event.preventDefault();
+    	let value = $(this).text();
+    	$(this).siblings().removeClass("-active");
+    	$(this).addClass("-active");
+    	$(".category-filters__current").text(value);
+    	if ($(window).innerWidth() < 861) {
+    		$(".category-filters__list").removeClass("-active");
+    	}
+    });
+    let show = false;
+    $(".product-specifications__link").on("click", function(event) {
+    	event.preventDefault();
+    	let item = $(this);
+    	if (!show) {
+    		$(".product-table__item.-hidden").css("display", "flex").hide().fadeIn(0);
+    		item.text("Скрыть");
+    	}
+    	else {
+    		$(".product-table__item.-hidden").css("display", "flex").hide().fadeOut(0);
+    		item.text("Подробнее");
+    	}
+    	show = !show;
     });
 });

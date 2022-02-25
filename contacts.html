@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Иннопром</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/rs-header.css">
+	<link rel="stylesheet" href="css/rs-slider.css">
+	<link rel="stylesheet" href="css/rs-catalog.css">
+	<link rel="stylesheet" href="css/rs-hits.css">
+	<link rel="stylesheet" href="css/rs-services.css">
+	<link rel="stylesheet" href="css/rs-about.css">
+	<link rel="stylesheet" href="css/rs-news.css">
+	<!-- Добавлено 05.12.2021 -->
+	<link rel="stylesheet" href="css/rs-delivery.css">
+	<link rel="stylesheet" href="css/rs-contacts.css">
+	<link rel="stylesheet" href="css/rs-category.css">
+	<link rel="stylesheet" href="css/rs-product.css">
+	<!-- END Добавлено 05.12.2021 -->
+	<link rel="stylesheet" href="css/rs-footer.css">
+</head>
+<body>
+	<header>
+		<div class="rs-17">
+			<div class="header">
+				<div class="header__top header-top">
+					<div class="header-top__container container">
+						<div class="header-top__address"><img src="img/home-solid.svg" alt=""> Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+						<div class="header-top__time"><img src="img/clock-solid.svg" alt=""> Режим работы: Пн-Пт с 10:00 до 18:00</div>
+						<div class="header-top__protection"><img src="img/star-solid.svg" alt=""> Обеспечим надежную защиту объекта любого масштаба</div>
+					</div>
+				</div>
+				<div class="header__middle header-middle">
+					<div class="header-middle__container container">
+						<a href="" class="header-middle__logo"><img src="img/logo.png" alt=""></a>
+						<form class="header-middle__form">
+							<input type="text" placeholder="Поиск товаров по наименованию..." required>
+							<button type="submit" class="gradient-button">Найти</button>
+						</form>
+						<div class="header-middle__contacts contacts">
+							<a href="tel:+7(495)374-90-93" class="contacts__item">
+								<img src="img/phone_icon.svg" alt="" class="contacts__img">
+								<span class="contacts__info">
+									<span class="contacts__name">Телефон:</span>
+									<span class="contacts__value">+7 (495) 374-90-93</span>
+								</span>
+							</a>
+							<a href="mailto:info@inoprom.ru" class="contacts__item">
+								<img src="img/email_icon.svg" alt="" class="contacts__img">
+								<span class="contacts__info">
+									<span class="contacts__name">E-mail:</span>
+									<span class="contacts__value">info@inoprom.ru</span>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom header-bottom">
+					<div class="header-bottom__container container">
+						<div class="header-bottom__catalog catalog">
+							<span class="gradient-button"><img src="img/list-solid.svg" alt="">Каталог оборудования</span>
+							<ul class="catalog__menu">
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+								<li class="catalog__item"><a href="">Категория каталога</a></li>
+							</ul>
+						</div>
+						<ul class="header-bottom__menu menu">
+							<li class="menu__item -active"><a href="">Главная</a></li>
+							<li class="menu__item"><a href="">Услуги</a></li>
+							<li class="menu__item"><a href="">О компании</a></li>
+							<li class="menu__item"><a href="">Новости</a></li>
+							<li class="menu__item"><a href="">Доставка / Оплата</a></li>
+							<li class="menu__item"><a href="">Контакты</a></li>
+						</ul>
+						<a href="" class="header-bottom__account -active"><span></span>Личный кабинет</a>
+						<a href="" class="header-bottom__basket"><span></span>Корзина (15 000 руб)</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-mobile">
+				<div class="header-mobile__container container">
+					<div class="header-mobile__burger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<a href="" class="header-mobile__logo"><img src="img/logo.png" alt=""></a>
+					<div class="header-mobile__lk">
+						<a href="" class="header-mobile__account"><span></span></a>
+						<a href="" class="header-mobile__basket"><span></span></a>
+					</div>
+					<div class="header-mobile__menu menu-mobile">
+						<div class="menu-mobile__tabs tabs">
+							<div class="tabs__item -active" data-tab="address"></div>
+							<div class="tabs__item" data-tab="phone"></div>
+							<div class="tabs__item" data-tab="mail"></div>
+						</div>
+						<div class="menu-mobile__tabs-info tabs-info">							
+							<div class="tabs-info__item -active" data-tab="address">71214 Conn Gateway New Amanda, MT 49015-8873</div>
+							<a href="tel:+1-925-918-7833" class="tabs-info__item" data-tab="phone">+1-925-918-7833</a>
+							<a href="mailto:hammes.gust@lesch.com" class="tabs-info__item" data-tab="mail">hammes.gust@lesch.com</a>
+						</div>
+						<form class="menu-mobile__search">
+							<input type="text" placeholder="Поиск товаров по наименованию..." required>
+							<button type="submit" class="gradient-button">Найти</button>
+						</form>
+						<ul class="menu-mobile__list list">
+							<li class="list__item -catalog">
+								<span class="gradient-button"><a href="">Каталог оборудования</a><span class="arrow-down"></span></span>
+								<ul class="menu-mobile__sublist sublist">
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+									<li class="sublist__item"><span><a href="">Категория каталога</a></span></li>
+								</ul>
+							</li>
+							<li class="list__item"><span><a href="">Главная</a></span></li>
+							<li class="list__item"><span><a href="">Услуги</a></span></li>
+							<li class="list__item"><span><a href="">О компании</a></span></li>
+							<li class="list__item"><span><a href="">Новости</a></span></li>
+							<li class="list__item"><span><a href="">Доставка / Оплата</a></span></li>
+							<li class="list__item"><span><a href="">Контакты</a></span></li>
+						</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="rs-17">
+			<div class="contacts">				
+				<div class="contacts__title section-title" style="background-image: url(img/img7_banner2.jpg);">
+					<img src="img/img7_circle3.svg" alt="">
+					<div class="section-title__container container">
+						<div class="breadcrumbs">
+							<a href="" class="breadcrumbs__item -prev">Главная</a>
+							<a href="" class="breadcrumbs__item -curr">Контакты</a>
+						</div>
+						<h1 class="section-title__title">Контакты</h1>
+					</div>
+				</div>
+				<div class="contacts__main contacts-main">
+					<div class="contacts-main__container container">
+						<div class="contacts-main__left">
+							<div class="contacts__about contacts-about">
+								<h2 class="contacts-about__title h2-title">О компании</h2>
+								<p class="contacts-about__p">Компания INOPROM является надежным поставщиком обширного ассортимента новейших систем безопасности, в наших каталогах имеется свыше 200 тематических разделов, где удобно представлены 6000 наименований оборудования.</p>
+								<p class="contacts-about__p">Наша компания осуществляет максимально быструю и качественную доставку в любой населенный пункт РФ. </p>
+								<div class="contacts-about__p -formatted">Клиентам предоставляются профессиональные консультации <strong>24/7</strong>, всегда готовы подробно ответить на любые рабочие вопросы.</div>
+							</div>
+							<form class="contacts__form contacts-form">
+								<h2 class="contacts-form__title h2-title">Свяжитесь с нами</h2>
+								<p class="contacts-form__p">У нас отлично работает обратная связь. Просто напишите ваш вопрос и номер телефона или e-mail. Мы быстро ответим вам!</p>
+								<div class="contacts-form__fields">
+									<div class="contacts-form__input">
+										<input type="text" class="input-half" placeholder="Имя">
+										<input type="text" class="input-half" placeholder="Телефон">
+									</div>
+									<div class="contacts-form__input">
+										<input type="text" placeholder="E-mail">
+									</div>
+									<div class="contacts-form__input">
+										<textarea placeholder="Сообщение"></textarea>
+									</div>
+								</div>
+								<button class="contacts-form__submit gradient-button">Задать вопрос</button>
+							</form>
+						</div>
+						<div class="contacts-main__right">
+							<img src="img/img7_circle2.svg" alt="">
+							<div class="contacts__info contacts-info">
+								<h2 class="contacts-info__title h2-title">Контакты</h2>
+								<div class="contacts-info__list">
+									<div class="contacts-info__item">
+										<img src="img/contacts-icon-1.png" alt="" class="contacts-info__img">
+										<div class="contacts-info__info">
+											<h4 class="contacts-info__name">Телефон</h4>
+											<a href="tel:+7(495)374-90-93" class="contacts-info__value">+7 (495) 374-90-93</a>
+										</div>
+									</div>
+									<div class="contacts-info__item">
+										<img src="img/contacts-icon-2.png" alt="" class="contacts-info__img">
+										<div class="contacts-info__info">
+											<h4 class="contacts-info__name">Электронная почта</h4>
+											<a href="mailto:info@inoprom.ru" class="contacts-info__value">info@inoprom.ru</a>
+										</div>
+									</div>
+									<div class="contacts-info__item">
+										<img src="img/contacts-icon-3.png" alt="" class="contacts-info__img">
+										<div class="contacts-info__info">
+											<h4 class="contacts-info__name">Режим работы</h4>
+											<p class="contacts-info__value">Пн-Пт: с 09:00 до 18:00</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="contacts__address contacts-address">
+								<h2 class="contacts-address__title h2-title">Адреса</h2>
+								<div class="contacts-address__list">
+									<div class="contacts-address__item">
+										<img src="img/contacts-icon-4.png" alt="" class="contacts-address__img">
+										<div class="contacts-address__info">
+											<h4 class="contacts-address__name">Основной адрес</h4>
+											<p class="contacts-address__value">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</p>
+										</div>
+									</div>
+									<div class="contacts-address__item">
+										<img src="img/contacts-icon-4.png" alt="" class="contacts-address__img">
+										<div class="contacts-address__info">
+											<h4 class="contacts-address__name">Производство</h4>
+											<p class="contacts-address__value">140155, Московская обл., Раменский р-н, с. Новохаритоново, д. 232</p>
+										</div>
+									</div>
+									<div class="contacts-address__item">
+										<img src="img/contacts-icon-4.png" alt="" class="contacts-address__img">
+										<div class="contacts-address__info">
+											<h4 class="contacts-address__name">Дополнительный офис</h4>
+											<p class="contacts-address__value">127521, г. Москва, проезд Марьиной рощи 17-й, д. 4, корп. 1</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="contacts__map contacts-map">
+								<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Acb30a5cbe1862cca7d70cc8fd90da27a33a2003c103d2b9038437a8d816b9970&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="rs-17">
+			<div class="footer">
+				<div class="footer__top">
+					<div class="footer__container container">
+						<div class="footer__left">
+							<div class="footer__section section">
+								<h2 class="section__title">Контакты</h2>
+								<div class="section__list">
+									<div class="section__item">
+										<img src="img/phone_icon.svg" alt="" class="section__img -phone">
+										<div class="section__info">
+											<div class="section__name">Телефон:</div>
+											<a href="tel:+7(495)374-90-93" class="section__value">+7 (495) 374-90-93</a>
+										</div>
+									</div>
+									<div class="section__item">
+										<img src="img/email_icon.svg" alt="" class="section__img -mail">
+										<div class="section__info">
+											<div class="section__name">E-mail:</div>
+											<a href="mailto:info@inoprom.ru" class="section__value">info@inoprom.ru</a>
+										</div>
+									</div>
+									<div class="section__item">
+										<img src="img/clock_icon.svg" alt="" class="section__img -clock">
+										<div class="section__info">
+											<div class="section__name">Режим работы:</div>
+											<div class="section__value">Пн-Пт: с 09:00 до 18:00</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__section section">
+								<h2 class="section__title">Адреса</h2>
+								<div class="section__list">
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Основной адрес:</div>
+											<div class="section__value">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+										</div>
+									</div>
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Производство:</div>
+											<div class="section__value">140155, Московская обл., Раменский р-н, с. Новохаритоново, д. 232.</div>
+										</div>
+									</div>
+									<div class="section__item -address">
+										<img src="img/adress_icon.svg" alt="" class="section__img -address">
+										<div class="section__info">
+											<div class="section__name">Дополнительный офис:</div>
+											<div class="section__value">127521, г. Москва, проезд Марьиной рощи 17-й, д. 4, корп. 1.</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__section section">
+								<h2 class="section__title">Мы в социальных сетях</h2>
+								<div class="section__social social">
+									<a href="" class="social__item -whatsapp"></a>
+									<a href="" class="social__item -vk"></a>
+									<a href="" class="social__item -instagram"></a>
+								</div>
+							</div>
+						</div>
+						<div class="footer__right">
+							<form class="footer__feedback feedback">
+								<h2 class="feedback__title">Нужна консультация специалиста?</h2>
+								<div class="feedback__inputs">
+									<input type="text" placeholder="Ваше имя" required>
+									<input type="tel" placeholder="Телефон" required>
+									<input type="email" placeholder="E-mail" required>
+								</div>
+								<button type="submit" class="gradient-button">Оставить заявку</button>
+							</form>
+							<div class="footer__info info">
+								<h3 class="info__title">О компании</h3>
+								<p class="info__desc">Современная компания Innoprom предлагает новейшие системы безопасности, способные обеспечить надежную защиту объекта любого масштаба даже в самых непростых условиях. Мы устанавливаем оборудование для видеонаблюдения, пожарные системы, системы контроля и управления доступом, а также другие охранные устройства. Вы можете сделать заказ любого объема: от оптовых поставок до единичного товара в розницу.</p>
+							</div>
+							<div class="footer__links links">
+								<div class="links__column">
+									<h3 class="links__title">Каталог</h3>
+									<div class="links__list">
+										<a href="" class="links__item">Оборудование для видеонаблюдения</a>
+										<a href="" class="links__item">Металлические конструкции</a>
+										<a href="" class="links__item">Системы контроля и управления доступом</a>
+										<a href="" class="links__item">Шкафы, щиты и боксы</a>
+										<a href="" class="links__item">Системы охранно-пожарной сигнализации</a>
+										<a href="" class="links__item">Кабельная продукция</a>
+										<a href="" class="links__item">Домофоны и переговорные устройства</a>
+										<a href="" class="links__item">Системы монтажа кабельных трасс</a>
+										<a href="" class="links__item">Компьютерное оборудование</a>
+										<a href="" class="links__item">Профили монтажные</a>
+									</div>
+								</div>
+								<div class="links__column">
+									<h3 class="links__title">Информация</h3>
+									<div class="links__list">
+										<a href="" class="links__item">Главная</a>
+										<a href="" class="links__item">Новости</a>
+										<a href="" class="links__item">Услуги</a>
+										<a href="" class="links__item">Доставка / Оплата</a>
+										<a href="" class="links__item">О компании</a>
+										<a href="" class="links__item">Контакты</a>
+										<a href="" class="links__item">Документы</a>
+										<a href="" class="links__item"></a>
+										<a href="" class="links__item">Соискателям</a>																					
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__container container">
+						<div class="footer__company">©  Innoprom 2021. Все права защищены.</div>
+						<a href="" class="footer__develop">Разработано в <img src="img/rossait.svg" alt=""></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-mobile">
+				<div class="footer-mobile__top">
+					<div class="footer-mobile__container container">
+						<form class="footer-mobile__form">
+							<h3 class="footer-mobile__title">Нужна консультация специалиста?</h3>
+							<input type="text" placeholder="Ваше имя" required>
+							<input type="tel" placeholder="Телефон" required>
+							<input type="email" placeholder="E-mail" required>
+							<button type="submit" class="gradient-button">Оставить заявку</button>
+						</form>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Контакты</h3>
+							<div class="footer-mobile__desc">
+								<a href="tel:+7(495)374-90-93" class="footer-mobile__contact -phone">+7 (495) 374-90-93</a>
+								<a href="mailto:info@inoprom.ru" class="footer-mobile__contact -mail">info@inoprom.ru</a>
+								<div class="footer-mobile__contact -time">Пн-Пт: с 09:00 до 18:00</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+								<div class="footer-mobile__contact -address">140102, г. Раменское, ул. Карла Маркса, д. 5, Технопарк «Иткол»</div>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">О компании</h3>
+							<div class="footer-mobile__desc">
+								<p class="footer-mobile__text">Современная компания Innoprom предлагает новейшие системы безопасности, способные обеспечить надежную защиту объекта любого масштаба даже в самых непростых условиях. Мы устанавливаем оборудование для видеонаблюдения, пожарные системы, системы контроля и управления доступом, а также другие охранные устройства. Вы можете сделать заказ любого объема: от оптовых поставок до единичного товара в розницу.</p>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Каталог</h3>
+							<div class="footer-mobile__desc">
+								<a href="" class="footer-mobile__link">Оборудование для видеонаблюдения</a>
+								<a href="" class="footer-mobile__link">Системы контроля и управления доступом</a>
+								<a href="" class="footer-mobile__link">Системы охранно-пожарной сигнализации</a>
+								<a href="" class="footer-mobile__link">Домофоны и переговорные устройства</a>
+								<a href="" class="footer-mobile__link">Компьютерное оборудование</a>
+								<a href="" class="footer-mobile__link">Металлические конструкции</a>
+								<a href="" class="footer-mobile__link">Шкафы, щиты и боксы</a>
+								<a href="" class="footer-mobile__link">Кабельная продукция</a>
+								<a href="" class="footer-mobile__link">Системы монтажа кабельных трасс</a>
+								<a href="" class="footer-mobile__link">Профили монтажные</a>
+							</div>
+						</div>
+						<div class="footer-mobile__item">
+							<h3 class="footer-mobile__title">Информация</h3>
+							<div class="footer-mobile__desc">
+								<a href="" class="footer-mobile__link">Главная</a>
+								<a href="" class="footer-mobile__link">Новости</a>
+								<a href="" class="footer-mobile__link">Контакты</a>
+								<a href="" class="footer-mobile__link">Соискателям</a>
+								<a href="" class="footer-mobile__link">О компании</a>
+								<a href="" class="footer-mobile__link">Контакты</a>
+								<a href="" class="footer-mobile__link">Документы</a>
+								<a href="" class="footer-mobile__link">Доставка / Оплата</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-mobile__bottom">
+					<div class="footer-mobile__container container">
+						<div class="footer-mobile__company">©  Innoprom 2021. Все права защищены.</div>
+						<a href="" class="footer-mobile__develop">Разработано в <img src="img/rossait.svg" alt=""></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+	</footer>
+	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script defer src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+	<script defer src="js/owl.carousel.min.js"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+	<script defer src="js/script.js"></script>
+</body>
+</html>
